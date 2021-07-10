@@ -1,5 +1,5 @@
 {
-  "homepage":"http://juniortemgoua0.github.io/tic-toc-tac",
+  "homepage": "http://juniortemgoua0.github.io/tic-toc-tac",
   "name": "tic-tac-toe",
   "version": "0.1.0",
   "private": true,
@@ -15,8 +15,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +39,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juniortemgoua0/tic-toc-tac.git"
+  },
+  "author": "juniortemgoua0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juniortemgoua0/tic-toc-tac/issues"
   }
 }
