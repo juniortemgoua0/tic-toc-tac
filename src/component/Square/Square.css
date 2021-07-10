@@ -1,0 +1,88 @@
+:root{
+    --border_style : rgb(44, 48, 51, 0.3);
+}
+
+.square{
+    font-size: 70px; 
+    height: 80px;
+    width: 80px;
+    background-color: transparent;
+    color: rgb(240, 233, 219);
+    
+}
+
+.border-right {
+    border-left: 7px solid var(--border_style);
+    border-bottom: 7px solid var(--border_style);
+
+}
+
+.border-left {
+    border-right: 7px solid var(--border_style);
+    border-bottom: 7px solid var(--border_style);
+}
+
+.border-center { 
+    border-bottom: 7px solid var(--border_style);
+}
+
+.border-end-right { 
+    border-left: 7px solid var(--border_style);
+}
+
+.border-end-left { 
+    border-right: 7px solid var(--border_style);
+
+}
+
+
+
+
+
+.square:hover{
+    cursor:pointer;
+  
+    background-color: rgb(7, 230, 200);
+}
+
+.late {
+    animation: retard  1s ease-out ;
+}
+
+@keyframes retard {
+    0%{
+        opacity: 0;  
+    } 
+    20% {
+        opacity: 0 ;
+
+    }
+    50% {
+        opacity: 0 ;
+
+    }
+    80% {
+        opacity: 0 ;
+
+    }
+
+    90% {
+        opacity: 0 ;
+
+    }
+    100% {
+        opacity: 1 ;
+
+    }
+
+
+}
+
+
+@keyframes border_animation {
+
+    from {
+        
+    }
+    
+}

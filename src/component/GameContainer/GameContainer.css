@@ -1,0 +1,66 @@
+.container-player-btn{
+    display: flex;
+    flex-wrap: row;
+    justify-content: center;
+    /* position: absolute; */
+    top:30px;
+    right: 10%;
+    left: 10%;
+    
+}
+
+.container-board{
+    /* position: absolute; */
+    right: 0px;
+    left: 0px;
+    top:5.5rem;
+    margin-top: 2rem ;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(35, 201, 179);
+    padding: 15px 0px;
+}
+
+
+.game-container {
+   
+    width: 100%;
+    height: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    border: 1px solid #ccc ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #ccc;
+    
+    
+}
+
+
+
+.replay-btn{
+    /* position: absolute; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    bottom: 25px;
+    display: flex;
+    justify-content: center;
+    right: 0px;
+    left: 0px;
+    font-weight: bold;
+    color: rgb(56, 216, 200);
+}
+
+.replay-btn span:hover {
+    cursor: pointer;
+}
+
+.status{
+    /* position: absolute; */
+    top:7rem;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

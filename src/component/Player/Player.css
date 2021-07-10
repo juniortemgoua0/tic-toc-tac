@@ -1,0 +1,19 @@
+.btn-player{
+    width: 15rem;
+    height: 3rem;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.btn-player-design{
+    border-bottom: 3px solid rgb(13, 221, 228);
+    box-shadow: 0px 0px  15px  #ccc;
+}

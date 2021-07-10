@@ -1,0 +1,9 @@
+.board-row{
+    display : flex;
+    background-color:transparent;
+    width: auto;
+}
+
+.board{
+  width: auto;
+}
